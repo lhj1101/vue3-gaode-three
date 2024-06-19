@@ -12,7 +12,7 @@
     "core-js": "^3.6.5",
     "element-plus": "^2.7.5",
     "gsap": "^3.12.5",
-    "happy-happy-ui": "^1.0.2",
+    "happy-happy-ui": "^1.0.5",
     "three": "^0.139.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",

@@ -1,7 +1,6 @@
 <template>
   <div style="overflow: hidden; position: relative;">
-    <happy-button1></happy-button1>
-    <happy-button2></happy-button2>
+    <!-- <happy-button :text="'happyui测试按钮'"></happy-button> -->
     <div ref="mapRef" id="container" class="container"></div>
     <div id="cssrender" class="cssrender"></div>
   </div>
