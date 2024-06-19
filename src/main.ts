@@ -2,5 +2,14 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import happyUI from "happy-happy-ui";
+import "../node_modules/happy-happy-ui/happy-happy-ui.css";
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 
-createApp(App).use(store).use(router).mount("#app");
+const app = createApp(App)
+
+app.use(ElementPlus)
+app.use(happyUI)
+
+app.use(store).use(router).mount("#app");
